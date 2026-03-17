@@ -1,0 +1,3835 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "consulta_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "consulta 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Consulta1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.sigla_uf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "sigla_uf"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "sigla uf": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sigla_uf": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.id_aih": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "id_aih"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id aih": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_aih": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification aih": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity aih": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier aih": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential aih": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.id_cid_principal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "id_cid_principal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id cid principal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_cid_principal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "principal": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cid principal": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification cid principal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity cid principal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier cid principal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential cid principal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "id cid leader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "id cid doyenne": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "id cid doyen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "major": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.tipo_vasculite": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "tipo_vasculite"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "tipo vasculite": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_vasculite": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.quantidade_procedimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "quantidade_procedimentos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "quantidade procedimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_procedimentos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.valor_ato_profissional": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "valor_ato_profissional"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "valor ato profissional": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor_ato_profissional": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "consulta 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Consulta2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.uf_paciente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "uf_paciente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "uf paciente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "uf_paciente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.uf_estabelecimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "uf_estabelecimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "uf estabelecimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "uf_estabelecimento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.municipio_paciente_nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "municipio_paciente_nome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "municipio paciente nome": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "municipio_paciente_nome": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.municipio_estabelecimento_nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "municipio_estabelecimento_nome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "municipio estabelecimento nome": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "municipio_estabelecimento_nome": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.id_aih": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "id_aih"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id aih": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_aih": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification aih": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity aih": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier aih": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential aih": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.carater_internacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "carater_internacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "carater internacao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "carater_internacao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.data_internacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "data_internacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data internacao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_internacao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information internacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact internacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info internacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic internacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document internacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure internacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record internacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "consulta_2.data_internacao.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "VariationSource": "data_internacao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.data_internacao.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "VariationSource": "data_internacao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data internacao ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information internacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact internacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info internacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic internacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document internacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure internacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record internacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.data_internacao.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "VariationSource": "data_internacao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data internacao trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information internacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact internacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info internacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic internacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document internacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure internacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record internacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.data_internacao.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "VariationSource": "data_internacao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data internacao mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information internacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact internacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info internacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic internacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document internacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure internacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record internacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.data_internacao.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "VariationSource": "data_internacao",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data internacao dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information internacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact internacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info internacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic internacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document internacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure internacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record internacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.data_saida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "data_saida"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data saida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_saida": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information saida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact saida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info saida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic saida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document saida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure saida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record saida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "consulta_2.data_saida.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "VariationSource": "data_saida",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.data_saida.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "VariationSource": "data_saida",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data saida ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information saida ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact saida ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info saida ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic saida ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document saida ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure saida ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record saida ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.data_saida.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "VariationSource": "data_saida",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data saida trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information saida trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact saida trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info saida trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic saida trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document saida trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure saida trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record saida trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.data_saida.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "VariationSource": "data_saida",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data saida mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information saida mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact saida mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info saida mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic saida mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document saida mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure saida mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record saida mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.data_saida.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "VariationSource": "data_saida",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data saida dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information saida dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact saida dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info saida dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic saida dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document saida dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure saida dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record saida dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.id_municipio_estabelecimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "id_municipio_estabelecimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id municipio estabelecimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_municipio_estabelecimento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification municipio estabelecimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity municipio estabelecimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier municipio estabelecimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential municipio estabelecimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.id_municipio_paciente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "id_municipio_paciente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id municipio paciente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_municipio_paciente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification municipio paciente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity municipio paciente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier municipio paciente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential municipio paciente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.idade_paciente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "idade_paciente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "idade paciente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "idade_paciente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.sexo_paciente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "sexo_paciente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sexo paciente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sexo_paciente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.procedimento_solicitado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "procedimento_solicitado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "procedimento solicitado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "procedimento_solicitado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.procedimento_realizado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "procedimento_realizado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "procedimento realizado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "procedimento_realizado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.complexidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "complexidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "complexidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.cid_principal_subcategoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "cid_principal_subcategoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cid principal subcategoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cid_principal_subcategoria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.cid_secundario_subcategoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "cid_secundario_subcategoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cid secundario subcategoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cid_secundario_subcategoria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.cid_diagnostico_secundario_1_subcategoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "cid_diagnostico_secundario_1_subcategoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cid diagnostico secundario 1 subcategoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cid_diagnostico_secundario_1_subcategoria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.cid_diagnostico_secundario_2_subcategoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "cid_diagnostico_secundario_2_subcategoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cid diagnostico secundario 2 subcategoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cid_diagnostico_secundario_2_subcategoria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.indicador_obito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "indicador_obito"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicador obito": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "indicador_obito": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.quantidade_dias_uti_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "quantidade_dias_uti_mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade dias uti me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_dias_uti_mes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.quantidade_dias_unidade_intermediaria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "quantidade_dias_unidade_intermediaria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade dias unidade intermediaria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_dias_unidade_intermediaria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.quantidade_dias": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "quantidade_dias"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade dias": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade_dias": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.valor_aih": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "valor_aih"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor aih": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor_aih": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.tipo_vasculite": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "tipo_vasculite"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo vasculite": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_vasculite": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Nome da Vasculite": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "consulta_2_data_saida_mê_has_consulta_2_data_saida_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_saida.mê": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.mê"
+			          }
+			        },
+			        "consulta_2.data_saida.dia": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.mê"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.dia"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "consulta_2.data_saida.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_saida_trimestre_has_consulta_2_data_saida_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_saida.trimestre": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.trimestre"
+			          }
+			        },
+			        "consulta_2.data_saida.mê": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.trimestre"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.mê"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "consulta_2.data_saida.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_saida_ano_has_consulta_2_data_saida_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_saida.ano": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.ano"
+			          }
+			        },
+			        "consulta_2.data_saida.trimestre": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.ano"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.trimestre"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "consulta_2.data_saida.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_saida_hierarquia_de_data_has_consulta_2_data_saida_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_saida.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.hierarquia_de_data"
+			          }
+			        },
+			        "consulta_2.data_saida.dia": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_saida_hierarquia_de_data_has_consulta_2_data_saida_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_saida.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.hierarquia_de_data"
+			          }
+			        },
+			        "consulta_2.data_saida.mê": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_saida_hierarquia_de_data_has_consulta_2_data_saida_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_saida.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.hierarquia_de_data"
+			          }
+			        },
+			        "consulta_2.data_saida.trimestre": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_saida_hierarquia_de_data_has_consulta_2_data_saida_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_saida.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.hierarquia_de_data"
+			          }
+			        },
+			        "consulta_2.data_saida.ano": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_saida_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_saida": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida"
+			          }
+			        },
+			        "consulta_2.data_saida.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_saida"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_saidas_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_internacao_mê_has_consulta_2_data_internacao_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_internacao.mê": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.mê"
+			          }
+			        },
+			        "consulta_2.data_internacao.dia": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.mê"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.dia"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_internacao_trimestre_has_consulta_2_data_internacao_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_internacao.trimestre": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.trimestre"
+			          }
+			        },
+			        "consulta_2.data_internacao.mê": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.trimestre"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.mê"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_internacao_ano_has_consulta_2_data_internacao_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_internacao.ano": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.ano"
+			          }
+			        },
+			        "consulta_2.data_internacao.trimestre": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.ano"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.trimestre"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_internacao_hierarquia_de_data_has_consulta_2_data_internacao_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_internacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.hierarquia_de_data"
+			          }
+			        },
+			        "consulta_2.data_internacao.dia": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_internacao_hierarquia_de_data_has_consulta_2_data_internacao_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_internacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.hierarquia_de_data"
+			          }
+			        },
+			        "consulta_2.data_internacao.mê": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_internacao_hierarquia_de_data_has_consulta_2_data_internacao_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_internacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.hierarquia_de_data"
+			          }
+			        },
+			        "consulta_2.data_internacao.trimestre": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_internacao_hierarquia_de_data_has_consulta_2_data_internacao_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_internacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.hierarquia_de_data"
+			          }
+			        },
+			        "consulta_2.data_internacao.ano": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "consulta_2_data_internacao_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2.data_internacao": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao"
+			          }
+			        },
+			        "consulta_2.data_internacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2.data_internacao"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_internacaos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_tipo_vasculite": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.tipo_vasculite": {
+			          "Target": {
+			            "Entity": "consulta_2.tipo_vasculite"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.tipo_vasculite"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_tipo_vasculites"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_valor_aih": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.valor_aih": {
+			          "Target": {
+			            "Entity": "consulta_2.valor_aih"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.valor_aih"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_valor_aihs"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_quantidade_dias": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.quantidade_dias": {
+			          "Target": {
+			            "Entity": "consulta_2.quantidade_dias"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.quantidade_dias"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_quantidade_dias"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_quantidade_dias_unidade_intermediaria": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.quantidade_dias_unidade_intermediaria": {
+			          "Target": {
+			            "Entity": "consulta_2.quantidade_dias_unidade_intermediaria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.quantidade_dias_unidade_intermediaria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_quantidade_dias_unidade_intermediarias"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_quantidade_dias_uti_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.quantidade_dias_uti_me": {
+			          "Target": {
+			            "Entity": "consulta_2.quantidade_dias_uti_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.quantidade_dias_uti_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_quantidade_dias_uti_me"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_indicador_obito": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.indicador_obito": {
+			          "Target": {
+			            "Entity": "consulta_2.indicador_obito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.indicador_obito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_indicador_obitos"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_cid_diagnostico_secundario_2_subcategoria": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.cid_diagnostico_secundario_2_subcategoria": {
+			          "Target": {
+			            "Entity": "consulta_2.cid_diagnostico_secundario_2_subcategoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.cid_diagnostico_secundario_2_subcategoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_cid_diagnostico_secundario_2_subcategorias"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_cid_diagnostico_secundario_1_subcategoria": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.cid_diagnostico_secundario_1_subcategoria": {
+			          "Target": {
+			            "Entity": "consulta_2.cid_diagnostico_secundario_1_subcategoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.cid_diagnostico_secundario_1_subcategoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_cid_diagnostico_secundario_1_subcategorias"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_cid_secundario_subcategoria": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.cid_secundario_subcategoria": {
+			          "Target": {
+			            "Entity": "consulta_2.cid_secundario_subcategoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.cid_secundario_subcategoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_cid_secundario_subcategorias"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_cid_principal_subcategoria": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.cid_principal_subcategoria": {
+			          "Target": {
+			            "Entity": "consulta_2.cid_principal_subcategoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.cid_principal_subcategoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_cid_principal_subcategorias"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_complexidade": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.complexidade": {
+			          "Target": {
+			            "Entity": "consulta_2.complexidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.complexidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_complexidades"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_procedimento_realizado": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.procedimento_realizado": {
+			          "Target": {
+			            "Entity": "consulta_2.procedimento_realizado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.procedimento_realizado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_procedimento_realizados"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_procedimento_solicitado": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.procedimento_solicitado": {
+			          "Target": {
+			            "Entity": "consulta_2.procedimento_solicitado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.procedimento_solicitado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_procedimento_solicitados"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_sexo_paciente": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.sexo_paciente": {
+			          "Target": {
+			            "Entity": "consulta_2.sexo_paciente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.sexo_paciente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_sexo_pacientes"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_idade_paciente": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.idade_paciente": {
+			          "Target": {
+			            "Entity": "consulta_2.idade_paciente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.idade_paciente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_idade_pacientes"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_id_municipio_paciente": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.id_municipio_paciente": {
+			          "Target": {
+			            "Entity": "consulta_2.id_municipio_paciente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.id_municipio_paciente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_id_municipio_pacientes"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_id_municipio_estabelecimento": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.id_municipio_estabelecimento": {
+			          "Target": {
+			            "Entity": "consulta_2.id_municipio_estabelecimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.id_municipio_estabelecimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_id_municipio_estabelecimentos"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_data_saida": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.data_saida": {
+			          "Target": {
+			            "Entity": "consulta_2.data_saida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_saida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_data_saidas"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_data_internacao": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.data_internacao": {
+			          "Target": {
+			            "Entity": "consulta_2.data_internacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.data_internacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_data_internacaos"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_carater_internacao": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.carater_internacao": {
+			          "Target": {
+			            "Entity": "consulta_2.carater_internacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.carater_internacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_carater_internacaos"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_id_aih": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.id_aih": {
+			          "Target": {
+			            "Entity": "consulta_2.id_aih"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.id_aih"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_id_aihs"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_municipio_estabelecimento_nome": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.municipio_estabelecimento_nome": {
+			          "Target": {
+			            "Entity": "consulta_2.municipio_estabelecimento_nome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.municipio_estabelecimento_nome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_municipio_estabelecimento_nome"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_municipio_paciente_nome": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.municipio_paciente_nome": {
+			          "Target": {
+			            "Entity": "consulta_2.municipio_paciente_nome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.municipio_paciente_nome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_municipio_paciente_nome"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_uf_estabelecimento": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.uf_estabelecimento": {
+			          "Target": {
+			            "Entity": "consulta_2.uf_estabelecimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.uf_estabelecimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_uf_estabelecimentos"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_uf_paciente": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.uf_paciente": {
+			          "Target": {
+			            "Entity": "consulta_2.uf_paciente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.uf_paciente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_uf_pacientes"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.me": {
+			          "Target": {
+			            "Entity": "consulta_2.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_me"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.ano": {
+			          "Target": {
+			            "Entity": "consulta_2.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_anos"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

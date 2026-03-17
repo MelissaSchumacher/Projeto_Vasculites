@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Panorama Vasculites"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "b00682dd-2bb5-4c08-a62c-033f2cfc0a37"
+  }
+}

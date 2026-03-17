@@ -1,0 +1,254 @@
+table Consulta2
+	lineageTag: 71e08bca-910c-49a0-9c20-e2038397c06a
+
+	column ano
+		dataType: int64
+		formatString: 0
+		lineageTag: 092a1760-47dc-4b62-9ed5-4726d5df8dc6
+		summarizeBy: sum
+		sourceColumn: ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes
+		dataType: int64
+		formatString: 0
+		lineageTag: d88b031b-b346-4475-8d41-0b16ea2d23fb
+		summarizeBy: sum
+		sourceColumn: mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column uf_paciente
+		dataType: string
+		lineageTag: 486988e0-ff91-4200-b4e9-7b3336db0e2b
+		summarizeBy: none
+		sourceColumn: uf_paciente
+
+		annotation SummarizationSetBy = Automatic
+
+	column uf_estabelecimento
+		dataType: string
+		lineageTag: b6f9abc6-329a-41bf-b5db-32da5e8058a7
+		summarizeBy: none
+		sourceColumn: uf_estabelecimento
+
+		annotation SummarizationSetBy = Automatic
+
+	column municipio_paciente_nome
+		dataType: string
+		lineageTag: 86fb549e-05fa-4279-b2e9-46d740600da1
+		summarizeBy: none
+		sourceColumn: municipio_paciente_nome
+
+		annotation SummarizationSetBy = Automatic
+
+	column municipio_estabelecimento_nome
+		dataType: string
+		lineageTag: 5cc63193-fa61-478f-ad2e-3fe29e7d7363
+		summarizeBy: none
+		sourceColumn: municipio_estabelecimento_nome
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_aih
+		dataType: string
+		lineageTag: 4273a6d1-556b-4e61-9c89-1fb6bac34174
+		summarizeBy: none
+		sourceColumn: id_aih
+
+		annotation SummarizationSetBy = Automatic
+
+	column carater_internacao
+		dataType: string
+		lineageTag: 303446e9-b674-431c-baaf-a677b35872c3
+		summarizeBy: none
+		sourceColumn: carater_internacao
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_internacao
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 460c0a9d-7643-4aa0-9d1e-cd9dfeb5b947
+		summarizeBy: count
+		sourceColumn: data_internacao
+
+		variation Variation
+			isDefault
+			relationship: 33643f8e-1fad-47fb-a3ed-f638d5859bec
+			defaultHierarchy: LocalDateTable_501eecd0-837d-4998-b9b0-4a28775c1acc.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column data_saida
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 1804e6e4-25b4-4ccf-922b-015982bd74f6
+		summarizeBy: none
+		sourceColumn: data_saida
+
+		variation Variation
+			isDefault
+			relationship: 4c802968-fe0f-419c-8647-59e3cf6ac715
+			defaultHierarchy: LocalDateTable_57d49c87-2785-41f5-ab17-691377c3d9fb.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column id_municipio_estabelecimento
+		dataType: string
+		lineageTag: f80fe251-29c9-4374-9a2c-9f28c24cc4c0
+		summarizeBy: none
+		sourceColumn: id_municipio_estabelecimento
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_municipio_paciente
+		dataType: string
+		lineageTag: b9ca9711-9cd6-4a7b-8226-8e0562e6f48a
+		summarizeBy: none
+		sourceColumn: id_municipio_paciente
+
+		annotation SummarizationSetBy = Automatic
+
+	column idade_paciente
+		dataType: int64
+		formatString: 0
+		lineageTag: d32a0ece-6b66-4301-84a2-e3970380ccd5
+		summarizeBy: sum
+		sourceColumn: idade_paciente
+
+		annotation SummarizationSetBy = Automatic
+
+	column sexo_paciente
+		dataType: string
+		lineageTag: 8e750a5f-5937-477b-9541-f7db1a7c5759
+		summarizeBy: none
+		sourceColumn: sexo_paciente
+
+		annotation SummarizationSetBy = Automatic
+
+	column procedimento_solicitado
+		dataType: string
+		lineageTag: 06c5be89-135a-4ffe-a22f-0c413a22a5a5
+		summarizeBy: none
+		sourceColumn: procedimento_solicitado
+
+		annotation SummarizationSetBy = Automatic
+
+	column procedimento_realizado
+		dataType: string
+		lineageTag: f36bc694-7f12-49e7-b3f8-8b164d9e32ad
+		summarizeBy: none
+		sourceColumn: procedimento_realizado
+
+		annotation SummarizationSetBy = Automatic
+
+	column complexidade
+		dataType: string
+		lineageTag: eda422d5-e2c8-422c-8ac9-b66bc7dae363
+		summarizeBy: none
+		sourceColumn: complexidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column cid_principal_subcategoria
+		dataType: string
+		lineageTag: 8c47644e-b9d4-42b3-bfdb-312dc8058d04
+		summarizeBy: none
+		sourceColumn: cid_principal_subcategoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column cid_secundario_subcategoria
+		dataType: string
+		lineageTag: 3823c98c-5768-43f1-8b70-e2508ca5c283
+		summarizeBy: none
+		sourceColumn: cid_secundario_subcategoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column cid_diagnostico_secundario_1_subcategoria
+		dataType: string
+		lineageTag: 40bcefbd-1128-4424-8f95-bdd48b2783fb
+		summarizeBy: none
+		sourceColumn: cid_diagnostico_secundario_1_subcategoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column cid_diagnostico_secundario_2_subcategoria
+		dataType: string
+		lineageTag: e325625c-8e1d-4542-95f2-4d19f5a4441e
+		summarizeBy: none
+		sourceColumn: cid_diagnostico_secundario_2_subcategoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column indicador_obito
+		dataType: int64
+		formatString: 0
+		lineageTag: 96e3eda8-c25c-4da0-b205-5eeaafd0e28f
+		summarizeBy: sum
+		sourceColumn: indicador_obito
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantidade_dias_uti_mes
+		dataType: int64
+		formatString: 0
+		lineageTag: 3cb9fcb4-5906-4e46-b5e0-c0fda0d91f11
+		summarizeBy: sum
+		sourceColumn: quantidade_dias_uti_mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantidade_dias_unidade_intermediaria
+		dataType: int64
+		formatString: 0
+		lineageTag: 8276d35a-bbdf-4531-a431-8e40f071e91c
+		summarizeBy: sum
+		sourceColumn: quantidade_dias_unidade_intermediaria
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantidade_dias
+		dataType: int64
+		formatString: 0
+		lineageTag: b440a761-6770-419e-bc3a-d84ee7b62c52
+		summarizeBy: sum
+		sourceColumn: quantidade_dias
+
+		annotation SummarizationSetBy = Automatic
+
+	column valor_aih
+		dataType: double
+		lineageTag: c8470bbb-e795-4722-99cc-b8e4ec610468
+		summarizeBy: sum
+		sourceColumn: valor_aih
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tipo_vasculite
+		dataType: string
+		lineageTag: c7cd1e3a-7def-45b7-99fd-0147747b9dbc
+		summarizeBy: count
+		sourceColumn: tipo_vasculite
+
+		annotation SummarizationSetBy = User
+
+	partition Consulta2 = m
+		mode: import
+		source =
+				let
+				    Fonte = Value.NativeQuery(GoogleBigQuery.Database(){[Name="citric-yen-471810-j7"]}[Data], "WITH #(lf)dicionario_carater_internacao AS (#(lf)    SELECT#(lf)        chave AS chave_carater_internacao,#(lf)        valor AS descricao_carater_internacao#(lf)    FROM `basedosdados.br_ms_sih.dicionario`#(lf)    WHERE#(lf)        nome_coluna = 'carater_internacao'#(lf)        AND id_tabela = 'aihs_reduzidas'#(lf)),#(lf)dicionario_sexo_paciente AS (#(lf)    SELECT#(lf)        chave AS chave_sexo_paciente,#(lf)        valor AS descricao_sexo_paciente#(lf)    FROM `basedosdados.br_ms_sih.dicionario`#(lf)    WHERE#(lf)        nome_coluna = 'sexo_paciente'#(lf)        AND id_tabela = 'aihs_reduzidas'#(lf)),#(lf)dicionario_procedimento_solicitado AS (#(lf)    SELECT#(lf)        chave AS chave_procedimento_solicitado,#(lf)        valor AS descricao_procedimento_solicitado#(lf)    FROM `basedosdados.br_ms_sih.dicionario`#(lf)    WHERE#(lf)        nome_coluna = 'procedimento_solicitado'#(lf)        AND id_tabela = 'aihs_reduzidas'#(lf)),#(lf)dicionario_procedimento_realizado AS (#(lf)    SELECT#(lf)        chave AS chave_procedimento_realizado,#(lf)        valor AS descricao_procedimento_realizado#(lf)    FROM `basedosdados.br_ms_sih.dicionario`#(lf)    WHERE#(lf)        nome_coluna = 'procedimento_realizado'#(lf)        AND id_tabela = 'aihs_reduzidas'#(lf)),#(lf)dicionario_complexidade AS (#(lf)    SELECT#(lf)        chave AS chave_complexidade,#(lf)        valor AS descricao_complexidade#(lf)    FROM `basedosdados.br_ms_sih.dicionario`#(lf)    WHERE#(lf)        nome_coluna = 'complexidade'#(lf)        AND id_tabela = 'aihs_reduzidas'#(lf))#(lf)#(lf)SELECT#(lf)    dados.ano AS ano,#(lf)    dados.mes AS mes,#(lf)#(lf)    dir_paciente.sigla_uf AS uf_paciente,#(lf)    dir_estabelecimento.sigla_uf AS uf_estabelecimento,#(lf)#(lf)    dir_paciente.nome AS municipio_paciente_nome,#(lf)    dir_estabelecimento.nome AS municipio_estabelecimento_nome,#(lf)#(lf)    dados.id_aih AS id_aih,#(lf)    descricao_carater_internacao AS carater_internacao,#(lf)    dados.data_internacao AS data_internacao,#(lf)    dados.data_saida AS data_saida,#(lf)#(lf)    dados.id_municipio_estabelecimento AS id_municipio_estabelecimento,#(lf)    dados.id_municipio_paciente AS id_municipio_paciente,#(lf)#(lf)    dados.idade_paciente AS idade_paciente,#(lf)    descricao_sexo_paciente AS sexo_paciente,#(lf)    descricao_procedimento_solicitado AS procedimento_solicitado,#(lf)    descricao_procedimento_realizado AS procedimento_realizado,#(lf)    descricao_complexidade AS complexidade,#(lf)#(lf)    dados.cid_principal_subcategoria AS cid_principal_subcategoria,#(lf)    dados.cid_secundario_subcategoria AS cid_secundario_subcategoria,#(lf)    dados.cid_diagnostico_secundario_1_subcategoria AS cid_diagnostico_secundario_1_subcategoria,#(lf)    dados.cid_diagnostico_secundario_2_subcategoria AS cid_diagnostico_secundario_2_subcategoria,#(lf)#(lf)    dados.indicador_obito AS indicador_obito,#(lf)    dados.quantidade_dias_uti_mes AS quantidade_dias_uti_mes,#(lf)    dados.quantidade_dias_unidade_intermediaria AS quantidade_dias_unidade_intermediaria,#(lf)    dados.quantidade_dias AS quantidade_dias,#(lf)    dados.valor_aih AS valor_aih,#(lf)#(lf)    CASE#(lf)        WHEN COALESCE(dados.cid_principal_subcategoria, '') = 'M300'#(lf)          OR COALESCE(dados.cid_secundario_subcategoria, '') = 'M300'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_1_subcategoria, '') = 'M300'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_2_subcategoria, '') = 'M300'#(lf)            THEN 'Poliarterite nodosa'#(lf)#(lf)        WHEN COALESCE(dados.cid_principal_subcategoria, '') = 'M301'#(lf)          OR COALESCE(dados.cid_secundario_subcategoria, '') = 'M301'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_1_subcategoria, '') = 'M301'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_2_subcategoria, '') = 'M301'#(lf)            THEN 'EGPA / Churg-Strauss'#(lf)#(lf)        WHEN COALESCE(dados.cid_principal_subcategoria, '') = 'M302'#(lf)          OR COALESCE(dados.cid_secundario_subcategoria, '') = 'M302'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_1_subcategoria, '') = 'M302'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_2_subcategoria, '') = 'M302'#(lf)            THEN 'Poliarterite juvenil'#(lf)#(lf)        WHEN COALESCE(dados.cid_principal_subcategoria, '') = 'M303'#(lf)          OR COALESCE(dados.cid_secundario_subcategoria, '') = 'M303'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_1_subcategoria, '') = 'M303'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_2_subcategoria, '') = 'M303'#(lf)            THEN 'Doença de Kawasaki'#(lf)#(lf)        WHEN COALESCE(dados.cid_principal_subcategoria, '') = 'M312'#(lf)          OR COALESCE(dados.cid_secundario_subcategoria, '') = 'M312'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_1_subcategoria, '') = 'M312'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_2_subcategoria, '') = 'M312'#(lf)            THEN 'Granulomatose com poliangiite'#(lf)#(lf)        WHEN COALESCE(dados.cid_principal_subcategoria, '') = 'M314'#(lf)          OR COALESCE(dados.cid_secundario_subcategoria, '') = 'M314'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_1_subcategoria, '') = 'M314'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_2_subcategoria, '') = 'M314'#(lf)            THEN 'Arterite de Takayasu'#(lf)#(lf)        WHEN COALESCE(dados.cid_principal_subcategoria, '') = 'M315'#(lf)          OR COALESCE(dados.cid_secundario_subcategoria, '') = 'M315'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_1_subcategoria, '') = 'M315'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_2_subcategoria, '') = 'M315'#(lf)            THEN 'Arterite de células gigantes'#(lf)#(lf)        WHEN COALESCE(dados.cid_principal_subcategoria, '') = 'M317'#(lf)          OR COALESCE(dados.cid_secundario_subcategoria, '') = 'M317'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_1_subcategoria, '') = 'M317'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_2_subcategoria, '') = 'M317'#(lf)            THEN 'Poliangiite microscópica'#(lf)#(lf)        WHEN COALESCE(dados.cid_principal_subcategoria, '') = 'M318'#(lf)          OR COALESCE(dados.cid_secundario_subcategoria, '') = 'M318'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_1_subcategoria, '') = 'M318'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_2_subcategoria, '') = 'M318'#(lf)            THEN 'Outras vasculites necrotizantes'#(lf)#(lf)        WHEN COALESCE(dados.cid_principal_subcategoria, '') = 'M319'#(lf)          OR COALESCE(dados.cid_secundario_subcategoria, '') = 'M319'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_1_subcategoria, '') = 'M319'#(lf)          OR COALESCE(dados.cid_diagnostico_secundario_2_subcategoria, '') = 'M319'#(lf)            THEN 'Vasculite necrotizante não especificada'#(lf)#(lf)        ELSE 'Outros'#(lf)    END AS tipo_vasculite#(lf)#(lf)FROM `basedosdados.br_ms_sih.aihs_reduzidas` AS dados#(lf)#(lf)LEFT JOIN `dicionario_carater_internacao`#(lf)    ON dados.carater_internacao = chave_carater_internacao#(lf)#(lf)LEFT JOIN `dicionario_sexo_paciente`#(lf)    ON dados.sexo_paciente = chave_sexo_paciente#(lf)#(lf)LEFT JOIN `dicionario_procedimento_solicitado`#(lf)    ON dados.procedimento_solicitado = chave_procedimento_solicitado#(lf)#(lf)LEFT JOIN `dicionario_procedimento_realizado`#(lf)    ON dados.procedimento_realizado = chave_procedimento_realizado#(lf)#(lf)LEFT JOIN `dicionario_complexidade`#(lf)    ON dados.complexidade = chave_complexidade#(lf)#(lf)LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` AS dir_paciente#(lf)    ON SUBSTR(CAST(dir_paciente.id_municipio AS STRING), 1, 6) = CAST(dados.id_municipio_paciente AS STRING)#(lf)#(lf)LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` AS dir_estabelecimento#(lf)    ON SUBSTR(CAST(dir_estabelecimento.id_municipio AS STRING), 1, 6) = CAST(dados.id_municipio_estabelecimento AS STRING)#(lf)#(lf)WHERE#(lf)    dados.ano BETWEEN 2023 AND 2025#(lf)    AND (#(lf)        COALESCE(dados.cid_principal_subcategoria, '') IN ('M300','M301','M302','M303','M312','M314','M315','M317','M318','M319')#(lf)        OR COALESCE(dados.cid_secundario_subcategoria, '') IN ('M300','M301','M302','M303','M312','M314','M315','M317','M318','M319')#(lf)        OR COALESCE(dados.cid_diagnostico_secundario_1_subcategoria, '') IN ('M300','M301','M302','M303','M312','M314','M315','M317','M318','M319')#(lf)        OR COALESCE(dados.cid_diagnostico_secundario_2_subcategoria, '') IN ('M300','M301','M302','M303','M312','M314','M315','M317','M318','M319')#(lf)    )", null, [EnableFolding=true])
+				in
+				    Fonte
+
+	annotation PBI_ResultType = Table
+

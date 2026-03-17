@@ -1,0 +1,110 @@
+table Consulta1
+	isHidden
+	lineageTag: 0fd1deba-e47b-473d-8ff8-355aacd267e8
+
+	column ano
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 4719ef9d-bb4d-4de9-a8b1-de20f928cefc
+		summarizeBy: sum
+		sourceColumn: ano
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 2c0a7c28-52d7-4476-82ca-933d45539b97
+		summarizeBy: sum
+		sourceColumn: mes
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column sigla_uf
+		dataType: string
+		isHidden
+		lineageTag: 8b3fcb90-4392-47bf-8097-952792843de2
+		summarizeBy: none
+		sourceColumn: sigla_uf
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_aih
+		dataType: string
+		isHidden
+		lineageTag: 4b8b9fae-d53a-40b3-a9d5-40c27d7c5f62
+		summarizeBy: none
+		sourceColumn: id_aih
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_cid_principal
+		dataType: string
+		isHidden
+		lineageTag: bfe3e3e8-9ebb-4c1c-8b5a-98d7fb64749d
+		summarizeBy: none
+		sourceColumn: id_cid_principal
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_vasculite
+		dataType: string
+		isHidden
+		lineageTag: 6efaf56f-c3f4-4f68-abf6-8a3b457c4d61
+		summarizeBy: none
+		sourceColumn: tipo_vasculite
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantidade_procedimentos
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c6927b9d-b647-4922-a687-476cef5390c3
+		summarizeBy: sum
+		sourceColumn: quantidade_procedimentos
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column valor_ato_profissional
+		dataType: string
+		isHidden
+		lineageTag: 430ccc40-6634-495c-a473-491234251230
+		summarizeBy: none
+		sourceColumn: valor_ato_profissional
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Consulta1 = m
+		mode: import
+		source =
+				let
+				    Fonte = Value.NativeQuery(GoogleBigQuery.Database(){[Name="citric-yen-471810-j7"]}[Data], "WITH base AS (#(lf)#(lf)SELECT#(lf)    dados.ano,#(lf)    dados.mes,#(lf)    dados.sigla_uf,#(lf)    dados.id_aih,#(lf)    dados.id_cid_principal,#(lf)    dados.quantidade_procedimentos,#(lf)    dados.valor_ato_profissional#(lf)#(lf)FROM `basedosdados.br_ms_sih.servicos_profissionais` AS dados#(lf)#(lf)WHERE#(lf)    dados.ano BETWEEN 2023 AND 2025#(lf)    AND (#(lf)        dados.id_cid_principal LIKE 'M30%'#(lf)        OR dados.id_cid_principal LIKE 'M31%'#(lf)    )#(lf)#(lf))#(lf)#(lf)SELECT#(lf)    ano,#(lf)    mes,#(lf)    sigla_uf,#(lf)    id_aih,#(lf)    id_cid_principal,#(lf)#(lf)CASE#(lf)#(lf)WHEN id_cid_principal = 'M300' THEN 'Poliarterite nodosa'#(lf)WHEN id_cid_principal = 'M301' THEN 'EGPA / Churg-Strauss'#(lf)WHEN id_cid_principal = 'M302' THEN 'Poliarterite juvenil'#(lf)WHEN id_cid_principal = 'M303' THEN 'Doença de Kawasaki'#(lf)#(lf)WHEN id_cid_principal = 'M312' THEN 'Granulomatose com poliangiite (GPA)'#(lf)WHEN id_cid_principal = 'M314' THEN 'Arterite de Takayasu'#(lf)WHEN id_cid_principal = 'M315' THEN 'Arterite de células gigantes'#(lf)WHEN id_cid_principal = 'M317' THEN 'Poliangiite microscópica'#(lf)#(lf)WHEN id_cid_principal = 'M318' THEN 'Outras vasculites necrotizantes'#(lf)WHEN id_cid_principal = 'M319' THEN 'Vasculite necrotizante não especificada'#(lf)#(lf)ELSE 'Outros'#(lf)#(lf)END AS tipo_vasculite,#(lf)#(lf)quantidade_procedimentos,#(lf)valor_ato_profissional#(lf)#(lf)FROM base", null, [EnableFolding=true]),
+				    #"Prefixo Adicionado" = Table.TransformColumns(Fonte, {{"valor_ato_profissional", each "R$" & Text.From(_, "pt-BR"), type text}})
+				in
+				    #"Prefixo Adicionado"
+
+	changedProperty = IsHidden
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

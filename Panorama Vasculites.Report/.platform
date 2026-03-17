@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Panorama Vasculites"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1381ac60-0544-4ebd-8be2-0024c2b15b3a"
+  }
+}

@@ -1,0 +1,10 @@
+relationship 33643f8e-1fad-47fb-a3ed-f638d5859bec
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Consulta2.data_internacao
+	toColumn: LocalDateTable_501eecd0-837d-4998-b9b0-4a28775c1acc.Date
+
+relationship 4c802968-fe0f-419c-8647-59e3cf6ac715
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Consulta2.data_saida
+	toColumn: LocalDateTable_57d49c87-2785-41f5-ab17-691377c3d9fb.Date
+
