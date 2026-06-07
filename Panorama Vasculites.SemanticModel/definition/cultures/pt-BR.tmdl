@@ -450,8 +450,15 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "state or province": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
 			        }
-			      ]
+			      ],
+			      "SemanticType": "Location"
 			    },
 			    "consulta_2.uf_estabelecimento": {
 			      "Definition": {
@@ -473,8 +480,15 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "state or province": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
 			        }
-			      ]
+			      ],
+			      "SemanticType": "Location"
 			    },
 			    "consulta_2.municipio_paciente_nome": {
 			      "Definition": {
@@ -496,8 +510,25 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "county": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "Município do paciente": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
-			      ]
+			      ],
+			      "SemanticType": "Location"
 			    },
 			    "consulta_2.municipio_estabelecimento_nome": {
 			      "Definition": {
@@ -519,8 +550,25 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "county": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "município do hospital": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
-			      ]
+			      ],
+			      "SemanticType": "Location"
 			    },
 			    "consulta_2.id_aih": {
 			      "Definition": {
@@ -1882,6 +1930,16 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "Idades do paciente": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -2206,6 +2264,70 @@ cultureInfo pt-BR
 			              "Agent": "PowerBI.VisualColumnRename"
 			            },
 			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.região_mapa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "Região mapa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "região mapa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.média_de_contagem_de_id_aih_por_procedimento_realizado_4": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "Média de Contagem de id_aih por procedimento_realizado 4"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "média de contagem de id_aih por procedimento_realizado 4": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.variação_de_média_de_indicador_obito_por_indicador_obito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "Variação de Média de indicador_obito por indicador_obito"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variação de média de indicador_obito por indicador_obito": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_2.média_de_soma_de_indicador_obito_por_indicador_obito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta2",
+			          "ConceptualProperty": "Média de Soma de indicador_obito por indicador_obito"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "média de soma de indicador_obito por indicador_obito": {
+			            "State": "Generated"
 			          }
 			        }
 			      ]
@@ -2935,6 +3057,138 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "data_internacaos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_média_de_soma_de_indicador_obito_por_indicador_obito": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.média_de_soma_de_indicador_obito_por_indicador_obito": {
+			          "Target": {
+			            "Entity": "consulta_2.média_de_soma_de_indicador_obito_por_indicador_obito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.média_de_soma_de_indicador_obito_por_indicador_obito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_média_de_soma_de_indicador_obito_por_indicador_obito"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_variação_de_média_de_indicador_obito_por_indicador_obito": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.variação_de_média_de_indicador_obito_por_indicador_obito": {
+			          "Target": {
+			            "Entity": "consulta_2.variação_de_média_de_indicador_obito_por_indicador_obito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.variação_de_média_de_indicador_obito_por_indicador_obito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_variação_de_média_de_indicador_obito_por_indicador_obito"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_média_de_contagem_de_id_aih_por_procedimento_realizado_4": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.média_de_contagem_de_id_aih_por_procedimento_realizado_4": {
+			          "Target": {
+			            "Entity": "consulta_2.média_de_contagem_de_id_aih_por_procedimento_realizado_4"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.média_de_contagem_de_id_aih_por_procedimento_realizado_4"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_média_de_contagem_de_id_aih_por_procedimento_realizado_4"
+			        }
+			      ]
+			    },
+			    "consulta_2_has_região_mapa": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.região_mapa": {
+			          "Target": {
+			            "Entity": "consulta_2.região_mapa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Object": {
+			              "Role": "consulta_2.região_mapa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_have_região_mapas"
 			        }
 			      ]
 			    },
@@ -3826,6 +4080,186 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "consulta_2_have_anos"
+			        }
+			      ]
+			    },
+			    "consulta_2_in_municipio_estabelecimento_nome": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.municipio_estabelecimento_nome": {
+			          "Target": {
+			            "Entity": "consulta_2.municipio_estabelecimento_nome"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "consulta_2.municipio_estabelecimento_nome"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "consulta_2.municipio_estabelecimento_nome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_are_in_municipio_estabelecimento_nome"
+			        }
+			      ]
+			    },
+			    "consulta_2_in_municipio_paciente_nome": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.municipio_paciente_nome": {
+			          "Target": {
+			            "Entity": "consulta_2.municipio_paciente_nome"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "consulta_2.municipio_paciente_nome"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "consulta_2.municipio_paciente_nome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_are_in_municipio_paciente_nome"
+			        }
+			      ]
+			    },
+			    "consulta_2_in_uf_estabelecimento": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.uf_estabelecimento": {
+			          "Target": {
+			            "Entity": "consulta_2.uf_estabelecimento"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "consulta_2.uf_estabelecimento"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "consulta_2.uf_estabelecimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_are_in_uf_estabelecimentos"
+			        }
+			      ]
+			    },
+			    "consulta_2_in_uf_paciente": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_2": {
+			          "Target": {
+			            "Entity": "consulta_2"
+			          }
+			        },
+			        "consulta_2.uf_paciente": {
+			          "Target": {
+			            "Entity": "consulta_2.uf_paciente"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "consulta_2.uf_paciente"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "consulta_2"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "consulta_2.uf_paciente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_2_are_in_uf_pacientes"
 			        }
 			      ]
 			    }

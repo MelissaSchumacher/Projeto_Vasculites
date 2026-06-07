@@ -23,20 +23,20 @@
         },
         {
           "location": {
-            "x": 284,
+            "x": 342,
             "y": 0
           },
           "nodeIndex": "Consulta2",
           "nodeLineageTag": "71e08bca-910c-49a0-9c20-e2038397c06a",
           "size": {
-            "height": 300,
-            "width": 234
+            "height": 827,
+            "width": 499
           },
           "zIndex": 2
         }
       ],
       "name": "Todas as tabelas",
-      "zoomValue": 100,
+      "zoomValue": 54.65711361310133,
       "pinKeyFieldsToTop": false,
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,

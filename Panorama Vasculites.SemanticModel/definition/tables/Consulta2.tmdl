@@ -1,6 +1,63 @@
 table Consulta2
 	lineageTag: 71e08bca-910c-49a0-9c20-e2038397c06a
 
+	measure 'Média de Contagem de id_aih por procedimento_realizado 4' =
+			
+			AVERAGEX(
+				KEEPFILTERS(VALUES('Consulta2'[procedimento_realizado])),
+				CALCULATE(COUNTA('Consulta2'[id_aih]))
+			)
+		lineageTag: 49d05b22-7706-4574-ba13-8e3c227843d9
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "AveragePerCategory"
+				}
+
+		changedProperty = FormatString
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Variação de Média de indicador_obito por indicador_obito' =
+			
+			VARX.P(
+				KEEPFILTERS(VALUES('Consulta2'[indicador_obito])),
+				CALCULATE(AVERAGE('Consulta2'[indicador_obito]))
+			)
+		formatString: 0
+		lineageTag: 2273be5b-772b-4f89-8306-9d36ac24e904
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "VariancePerCategory"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Média de Soma de indicador_obito por indicador_obito' =
+			
+			AVERAGEX(
+				KEEPFILTERS(VALUES('Consulta2'[indicador_obito])),
+				CALCULATE(SUM('Consulta2'[indicador_obito]))
+			)
+		formatString: 0%;-0%;0%
+		lineageTag: 3a732bb5-2c5c-4de4-85dc-4cc3eaf3a89d
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "AveragePerCategory"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Percentual obito' = AVERAGE('consulta2'[indicador_obito])
+		lineageTag: 634555ec-e24f-48a3-bb09-413bf6f443bc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column ano
 		dataType: int64
 		formatString: 0
@@ -22,6 +79,7 @@ table Consulta2
 	column uf_paciente
 		dataType: string
 		lineageTag: 486988e0-ff91-4200-b4e9-7b3336db0e2b
+		dataCategory: StateOrProvince
 		summarizeBy: none
 		sourceColumn: uf_paciente
 
@@ -30,6 +88,7 @@ table Consulta2
 	column uf_estabelecimento
 		dataType: string
 		lineageTag: b6f9abc6-329a-41bf-b5db-32da5e8058a7
+		dataCategory: StateOrProvince
 		summarizeBy: none
 		sourceColumn: uf_estabelecimento
 
@@ -38,6 +97,7 @@ table Consulta2
 	column municipio_paciente_nome
 		dataType: string
 		lineageTag: 86fb549e-05fa-4279-b2e9-46d740600da1
+		dataCategory: County
 		summarizeBy: none
 		sourceColumn: municipio_paciente_nome
 
@@ -46,6 +106,7 @@ table Consulta2
 	column municipio_estabelecimento_nome
 		dataType: string
 		lineageTag: 5cc63193-fa61-478f-ad2e-3fe29e7d7363
+		dataCategory: County
 		summarizeBy: none
 		sourceColumn: municipio_estabelecimento_nome
 
@@ -143,10 +204,10 @@ table Consulta2
 	column procedimento_realizado
 		dataType: string
 		lineageTag: f36bc694-7f12-49e7-b3f8-8b164d9e32ad
-		summarizeBy: none
+		summarizeBy: count
 		sourceColumn: procedimento_realizado
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column complexidade
 		dataType: string
@@ -192,10 +253,10 @@ table Consulta2
 		dataType: int64
 		formatString: 0
 		lineageTag: 96e3eda8-c25c-4da0-b205-5eeaafd0e28f
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: indicador_obito
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column quantidade_dias_uti_mes
 		dataType: int64
@@ -241,6 +302,12 @@ table Consulta2
 		sourceColumn: tipo_vasculite
 
 		annotation SummarizationSetBy = User
+
+	column 'Região mapa' = "Brasil - "& Consulta2[uf_estabelecimento]
+		lineageTag: 53fa5583-89aa-4b10-b9c7-354928c1622d
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
 
 	partition Consulta2 = m
 		mode: import
